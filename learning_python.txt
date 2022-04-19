@@ -1,0 +1,28 @@
+In Python you can:
+- Create and work with lists
+- Use "if" statements to control the flow on your programs by doing 
+different things depending on different conditions 
+- Let the user input data to use in on your programs
+- Use for and while loops to iterate over iterables like list and dictionaries
+- Create functions to reutilize code.
+  - Functions can optionally take parameters and return something
+  - Functions can take positional and keyword arguments.
+  - We can set default values on parameters in case none are provided
+- Modularize you code by creating modules
+  - Modules are python files (.py) containing some code that can be imported
+    by other programs
+  - There are different syntactic ways to import modules, it's recommended to be
+    specific and not avoid importing using "from module_name import *" to avoid
+    ambiguity and naming collisions.
+- Create classes to further organize code and create many instances of a class
+  from a defined class.
+  - Classes can hold variables known as attributes and also functions known as 
+    methods
+  - We can create other related classes by inheriting the properties of an 
+    existing class. 
+  - Classes can be imported as well to keep code organized.
+- Create and read text.txt files to store and retrieve information
+  - Use "with open(filename) as file_object:" to safely open and close files
+  - Read entire file using file_object.read() method
+  - Read file by looping line by line using "for line in file_object"
+  - Make a list of lines from a file sing "file_object.readlines()"    
